@@ -1,3 +1,24 @@
+# Installation
+## Node.js
+Make sure your development environment includes Node.js® and an npm package manager.
+
+Angular requires a current, active LTS, or maintenance LTS version of Node.js. See the engines key for the specific version requirements in our package.json.
+
+To check your version, run node -v in a terminal/console window.
+
+To get Node.js, go to [nodejs.org](https://nodejs.org/en/).
+
+## Angular CLI
+### Install the Angular CLI
+You use the Angular CLI to create projects, generate application and library code, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
+
+Install the Angular CLI globally.
+
+To install the CLI using npm, open a terminal/console window and enter the following command:
+
+npm install -g @angular/cli
+
+
 # Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
