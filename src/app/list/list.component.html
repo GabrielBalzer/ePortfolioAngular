@@ -1,0 +1,16 @@
+<h2>Liste</h2>
+<li *ngFor="let listelement of list" (click)="onSelect(listelement)" [class.selected]="listelement === selectedElement">
+    <span>{{listelement.id}}  {{listelement.value}}</span>
+</li>
+
+
+<div *ngIf="selectedElement">
+
+<h2>{{selectedElement.value}} Details</h2>
+<div><span>id: </span> {{selectedElement.id}} </div>
+<div>
+<label>Wert:
+    <input [(ngModel)]="selectedElement.value" placeholer="value" />
+</label>
+</div>
+</div>
